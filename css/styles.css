@@ -1,0 +1,289 @@
+
+:root 
+{
+    --blanco: #ffffff;
+    --oscuro: #212121;
+    --primario: #ffc107;
+    --secundario: #0097a7;
+    --gris: #757575;
+    --grisClaro: #dfe9f3;
+}
+
+/*480 movil 768 tablet 1140 tablet 1400 tablet*/
+
+header
+{
+    text-align: center;
+}
+body
+{
+    font-family: 
+    'Franklin Gothic Medium', 
+    'Arial Narrow', 
+    Arial, 
+    sans-serif;
+    margin: 0%;
+    border: 0%;
+    padding: 0%;
+}
+footer
+{
+    text-align: center;
+    background-color: var(--gris);
+    padding: 0.1%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+@media (min-width:768px)
+{
+    body 
+    {
+        background-color: var(--grisClaro);
+    }
+}
+
+a:link
+{
+    color: var(--blanco);
+    text-decoration: none;
+    font-size: 1.5em;
+}
+a:hover
+{
+    color: var(--primario);
+}
+@media (min-width:768px)
+{
+    a:link
+{
+
+}
+    a:hover
+{
+
+}
+}
+
+.indice-bg
+{
+    background-color: var(--secundario);
+}
+.indice-principal
+{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    max-width: 120rem;
+    margin: 0 auto;
+}
+.indice-principal a
+{
+    padding: 1rem;
+    color: var(--blanco);
+    font-size: 2rem;
+    font-weight: 700;
+    text-decoration: none;
+}
+.indice-principal a:hover
+{
+    color: var(--primario);
+}
+@media (min-width:768px)
+{
+    .indice-bg
+    {
+
+    }
+    .indice-principal
+    {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .indice-principal a
+    {
+
+    }
+    .indice-principal a:hover
+    {
+
+    }
+}
+
+.portada
+{
+    text-align: center;
+    color: var(--blanco);
+    background-image: url(/img/hero.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin-top: 0%;
+    /*padding-top: 2%;
+    padding-bottom: 2%;*/
+}
+.content-portada
+{
+    background-color: rgba(0, 0, 0, .6);
+    width: 100%;
+    height: 100%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+.portadainicio
+{
+    margin: 0%;
+    font-size: 35px;
+}
+.freelancer
+{
+    margin-bottom: 5%;
+}
+.IES
+{
+    margin-bottom: 50px;
+}
+.contact
+{   
+    padding: 8px;
+    border-radius: 8px;
+    background-color: var(--secundario);
+    color: var(--blanco);
+}
+@media (min-width:768px)
+{
+
+}
+
+.servicios
+{
+    margin-top: 2%;
+    background-color: white;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    margin-left: 10%;
+    padding-top: 0.5%;
+    margin-right: 10%;
+    box-shadow: 15px 10px 15px 15px rgba(0,0,0,0.56);
+}
+.servicios h2 
+{ 
+    text-align: center; 
+}
+.servicio
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.servicio p
+{
+    text-align: center;
+}
+.iconos
+{
+    height: 10rem;
+    width: 10rem;
+    background: var(--primario);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media (min-width:768px)
+{
+    .padreando
+{
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr;   
+}
+}
+
+.contactoform
+{
+    margin: 2% 20% 0% 20%;
+    padding: 0% 0% 1% 0%;
+
+}
+.contactanos
+{
+    background-color: var(--gris);
+    border-radius: 15px;
+    padding: 1rem 0 1rem 0;
+}
+.contactanos h3
+{
+    color: var(--primario);
+    text-align: center;
+}
+.contactanos label
+{
+    color: var(--blanco);
+}
+
+.contactanos form
+{
+    display: grid;
+}
+
+/*.form
+{
+    background-color: var(--gris);
+    margin: 0% 25%;
+    border-radius: 15px 15px 15px 15px;
+    text-align: left;
+    padding: 0 0 0 2rem;
+}
+.pf{
+    margin: 1rem 0 1rem 1rem;
+}
+.form1
+{
+    display: inline-block;
+}
+#fname
+{
+    padding: 0% 5rem;
+}
+#fphone
+{
+    padding: 0% 5rem;
+}
+#fmail
+{
+    padding: 0% 15.5rem;
+}
+#fmessage
+{
+    padding: 0% 15.5rem;
+}
+.boton 
+{
+    margin: 2% 80%;
+}*/
+
+table
+{
+    margin: auto;
+    padding: 0em 0em 0em 0em;
+    border: 1px solid var(--blanco);
+    background-color: var(--blanco);
+}
+th
+{
+    background-color: blueviolet;
+    color: white;
+    padding: 2em 4em 2em 4em;
+    border: 1px solid white;
+}
+td
+{
+    border: 1px solid white;
+    background-color: var(--blanco);
+}
+@media (min-width:768px)
+{
+    
+}
