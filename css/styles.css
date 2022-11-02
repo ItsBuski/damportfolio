@@ -115,7 +115,7 @@ a:hover
 {
     text-align: center;
     color: var(--blanco);
-    background-image: url(/img/hero.jpg);
+    background-image: url("img/hero.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -201,7 +201,9 @@ a:hover
 }
 }
 
-.contactoform
+
+
+/*.contactoform
 {
     margin: 2% 20% 0% 20%;
     padding: 0% 0% 1% 0%;
@@ -227,8 +229,7 @@ a:hover
 {
     display: grid;
 }
-
-/*.form
+.form
 {
     background-color: var(--gris);
     margin: 0% 25%;
