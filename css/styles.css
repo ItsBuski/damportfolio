@@ -203,15 +203,12 @@ a:hover
 }
 .contenedorcampos
 {
-
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
-.campo input
+.contenedorcampos .block
 {
-
-}
-.campo
-{
-
+    grid-column: 1/3;
 }
 
 /*.contactoform
